@@ -82,7 +82,7 @@ df['Duracion_Llenado'] = df['Fecha_Final'] - df['Fecha_Inicial']
 - [ ] Sincronizar GitHub
 - [ ] Documentar
 
-@ciogrupounigas :+1: :smiley:
+@cio_primax_cu :+1: :smiley:
 
 Pasos pa desarrollar proyectos de software
 
