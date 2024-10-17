@@ -1,0 +1,245 @@
+# ANÁLISIS DE TENDENCIAS DE VENTAS DE HIDROCARBUROS AL CLIENTE FINAL EN ESTACIONES DE SERVICIO (EDS)
+---
+## Introducción 
+En un entorno cada vez más competitivo, tomar decisiones informadas es esencial para los clientes al elegir dónde tanquear su vehículo. Las estaciones de servicio juegan un papel crucial en esta decisión, ya que su rendimiento puede verse afectado por factores como la ubicación, la competencia y las tendencias del mercado. Por ello, es fundamental que los consumidores analicen los datos relacionados con las estaciones de servicio, considerando variables como el precio del combustible, el tiempo de llenado, y el tiempo promedio de espera por vehículo.
+Este análisis no solo les permitirá evaluar qué estaciones ofrecen las mejores condiciones, sino que también ayudará a comprender cómo factores como promociones, condiciones climáticas y la demanda general influyen en los precios. Al observar estas relaciones, los clientes podrán tomar decisiones más informadas sobre dónde abastecerse, optimizando así su experiencia y costos. Con información clara y accesible, los consumidores estarán mejor preparados para anticipar cambios en el mercado y elegir la opción que mejor se adapte a sus necesidades.
+
+## ASIS  
+
+El análisis de la situación en la empresa revela un uso intensivo de cuadros de Excel como herramienta principal para gestionar y consolidar datos. Aunque Excel puede ser útil para el manejo de datos en pequeños equipos, su uso excesivo en proyectos complejos presenta varios problemas, especialmente en términos de automatización y consolidación. Aquí está el análisis de la situación actual:
+
+Problemas con el uso de Excel en la gestión de proyectos:
+Falta de automatización:
+
+El uso de múltiples hojas de cálculo de Excel hace que el proceso de ingreso, validación y actualización de datos sea manual.
+Cualquier cambio en una fuente de datos requiere modificaciones manuales en varios archivos, lo que aumenta la probabilidad de errores humanos.
+Es difícil implementar fórmulas y macros que funcionen eficientemente a gran escala o de manera continua para realizar actualizaciones automáticas.
+Datos fragmentados y no consolidados:
+
+Los datos de diferentes áreas o departamentos pueden estar en archivos separados, sin una fuente única de verdad, lo que lleva a inconsistencias y duplicidades.
+La consolidación manual de datos en informes es lenta y propensa a errores, y puede dar lugar a la pérdida de información clave en el proceso.
+Limitaciones en análisis dinámicos y escalabilidad:
+
+Los cuadros de Excel no son dinámicos; cualquier cambio o actualización requiere manipulación manual, lo que ralentiza el análisis.
+A medida que crecen los volúmenes de datos, Excel se vuelve ineficiente, con problemas de rendimiento y capacidad de manejo de grandes conjuntos de datos.
+Falta de trazabilidad y control:
+
+El control de versiones de los archivos de Excel es difícil, lo que provoca problemas para rastrear quién realizó cambios y cuándo.
+Es complicado implementar reglas de negocio que mantengan integridad en los datos y aseguren que todos los usuarios trabajen con información actualizada.
+Colaboración ineficaz:
+
+La colaboración entre departamentos se ve obstaculizada por el uso de archivos estáticos y distribuidos. La falta de un sistema centralizado impide una comunicación fluida y una toma de decisiones rápida y basada en datos en tiempo real.
+Consecuencias operativas:
+Decisiones retardadas debido a la lentitud en la recolección y análisis de datos.
+Baja eficiencia en el uso del tiempo y recursos, al tener que realizar tareas manuales repetitivas.
+Falta de agilidad para adaptarse a cambios rápidos en el entorno empresarial, ya que cualquier modificación en los datos requiere tiempo considerable.
+
+## TO BE: Transformación con Python y Ciencia de Datos
+
+Automatización del Ingreso y Procesamiento de Datos:
+
+Se eliminarán los procesos manuales de ingreso de datos en Excel y serán reemplazados por scripts en Python que se conecten directamente a las fuentes de datos (bases de datos SQL, API, archivos CSV, etc.).
+Se implementarán pipelines automatizados para la extracción, transformación y carga de datos (ETL), utilizando herramientas como pandas y SQLAlchemy para gestionar la conexión entre diferentes fuentes de datos y procesar la información.
+Python permitirá la validación automática de los datos, verificando su integridad y consistencia antes de almacenarlos en una base de datos central.
+Consolidación Dinámica de los Datos:
+
+Los datos serán almacenados en una base de datos centralizada (como PostgreSQL, MySQL o una base de datos en la nube) en lugar de estar distribuidos en múltiples archivos de Excel.
+Python será utilizado para automatizar la consolidación de datos desde distintas áreas o departamentos, asegurando que se unifiquen en un formato estándar que permita su análisis fácil y rápido.
+El uso de tablas de resumen y la creación de vistas en tiempo real permitirá que los datos estén siempre actualizados, sin necesidad de intervención manual.
+Análisis de Datos Automatizado:
+
+Los análisis que antes se realizaban manualmente en Excel se automatizarán usando notebooks de Jupyter y bibliotecas como NumPy, pandas y scikit-learn para realizar análisis estadísticos, detectar patrones y crear modelos predictivos basados en los datos consolidados.
+Los informes manuales serán reemplazados por dashboards interactivos en herramientas como Plotly o Power BI, que estarán conectados a las bases de datos actualizadas, mostrando métricas clave en tiempo real.
+Modelos Predictivos y Machine Learning:
+
+Python permitirá el uso de técnicas de machine learning para crear modelos predictivos que ayuden a la empresa a tomar decisiones estratégicas basadas en datos. Por ejemplo:
+Previsión de ventas: Modelos predictivos para estimar la demanda futura de productos.
+Análisis de comportamiento de clientes: Segmentación automática de clientes basados en patrones de compra.
+Optimización de operaciones: Identificación de cuellos de botella o ineficiencias en los procesos de ventas o distribución.
+Visualización Dinámica de Datos:
+
+En lugar de gráficos estáticos en Excel, Python y herramientas de visualización como Matplotlib, Seaborn o Plotly Dash generarán gráficos y paneles interactivos que permitirán explorar los datos desde múltiples perspectivas y realizar análisis de manera dinámica.
+Las herramientas de Business Intelligence (BI) estarán conectadas a los datos en tiempo real, permitiendo a los usuarios generar sus propios informes sin depender de un analista de datos.
+Automatización de Reportes y KPIs:
+
+Se creará un sistema automatizado de generación de reportes periódicos que se envían a los responsables de cada área, proporcionando una vista clara de los KPIs sin intervención manual.
+Python puede integrarse con plataformas de comunicación (como correo electrónico o aplicaciones de mensajería) para enviar alertas automáticas cuando se detecten anomalías o cuando se alcancen ciertos umbrales.
+
+---
+
+# Objetivos del proyecto
+
+## Objetivo general 
+
+Realizar un análisis a las ventas en las estaciones de servicio de combustible del sistema de líquidos MOL con el fin de identificar patrones y obtener información clave. Permitiendo formular recomendaciones estratégicas y de mejora para el cliente.**
+
+## Objetivos Específicos
+
+Identificar promedios y distribución de tiempos de llenado de vehículos que permita contribuir a los análisis operativos.
+Evaluar las tendencias de ventas en distintos periodos de tiempo para identificar patrones estacionales y períodos de mayor demanda.
+Realizar un análisis de rendimiento en los puntos de venta para comprender patrones de ventas, comportamiento de transacciones y frecuencia de clientes con el fin de optimizar la distribución de recursos y mejorar la experiencia del cliente.
+Detectar patrones anómalos de ventas para generar las alertas correspondientes.
+Evaluar desempeño de ventas para obtener información detallada del volumen de ventas asociado a cada corte.
+
+
+# Delimitación del proyecto
+## Alcance del Proyecto:
+
+### Áreas Involucradas:
+
+El proyecto abarcará los departamentos de ventas, operaciones y mantenimiento, ya que son las principales áreas que actualmente gestionan y consolidan datos a través de múltiples hojas de Excel.
+
+## Fuentes de Datos:
+- Base de datos en MSQL de nombre MOL (Master On Line)
+La tabla ventas en **_MSSQL_** se compone de :
+
+```sql
+[Pk_IdVenta],[Id_Venta_Estacion],[IdEstacion],[Fecha_Inicial],[Fecha_Final],[Posicion],[Manguera],[Precio_Unitario],[Cantidad]   ,[ValorTotal],[Producto],[TipoTransaccion],[Documento_Vendedor],[Trama],[Documento_Tercero],[Sincronizado],[Id_Corte]
+```
+- Tablas maestras de productos y estaciones de servicio
+```sql
+Archivo productos.txt [Pk_IdProducto	Nombre	Descripcion	FK_IdUnidadMedida	FK_IdSubcategoria	FK_IdMoneda	Existe	CodigoProducto	CodigoSiesa]
+Archivo eds.xlsx [Pk_idEstacion],[Nombre],[Ciudad],[Latitud],[Longitud]
+
+```
+
+![Data](https://static.platzi.com/media/learningpath/banners/1c4f4add-87b9-44cc-ba30-4a8a134bf76e.jpg)
+
+## Marco Temporal
+El proyecto se centrará en el análisis de datos históricos de ventas, desde marzo 2023  hasta la fecha actual.
+
+## Limitaciones del Proyecto:
+- La base de datos actual no incluye información de transacciones de pagos electrónicos.
+- La información se limita a 6  estaciones de servicio de combustible liquido.
+- La base de datos no incluye información de los vehículos que se llenan de combustible.
+
+## Metodología
+En este proyecto, se seguirá un enfoque estructurado para el análisis y visualización de los datos, aplicando diversas técnicas y herramientas que permiten obtener resultados precisos y comprensibles. A continuación, se detallan los pasos a seguir:
+
+### Recolección y limpieza de datos:
+
+Para garantizar la calidad y consistencia de los datos utilizados, se llevarán a cabo las siguientes actividades:
+
+Se aplicarán técnicas de limpieza de datos, tales como la eliminación de inconsistencias, duplicados y la gestión de valores faltantes. Los datos serán recolectados e integrados desde múltiples fuentes, utilizando la biblioteca Pandas en Python para facilitar el manejo y procesamiento eficiente de la información.
+
+### Análisis exploratorio de datos (EDA):
+Durante esta fase, se realizan diversas técnicas de análisis descriptivo para obtener una mejor comprensión de los datos y sus características operativas. Las preguntas de negocio que guían este análisis son las siguientes:
+
+### Análisis Descriptivo:
+
+Estadísticas básicas como medias, medianas y varianzas de variables como Precio_Unitario, Cantidad, y ValorTotal.
+Distribuciones de variables numéricas mediante histogramas o gráficos de densidad, y gráficos de barras para variables categóricas como Tipo Transacción y Producto.
+
+
+### Análisis de Tiempos de Llenado:
+
+Duración del llenado: Se calculará la diferencia entre Fecha_Inicial y Fecha_Final para obtener el tiempo que tarda en llenarse un vehículo, lo cual es clave para el análisis operativo.
+Promedio del tiempo de llenado por vehículo para identificar patrones de congestión.
+Distribución del tiempo de llenado: Se crearán histogramas para detectar llenados fuera de lo usual.
+
+
+### Análisis Temporal:
+
+**Tendencias de ventas**: Análisis de ventas diarias, semanales y mensuales para observar cambios a lo largo del tiempo.
+
+**Horas pico**: Identificación de las horas del día con mayor volumen de ventas basadas en Fecha_Inicial.
+Análisis por Estación y Posición:
+
+**Rendimiento por estación**: Comparación del volumen de ventas y valor total entre distintas estaciones (IdEstacion) o posiciones de manguera.
+
+**Análisis por producto**: Evaluación de qué productos se venden más en cada estación y momento.
+
+**Análisis de Transacciones**:
+
+* Tipo de Transacción: Análisis del volumen de ventas por tipo de transacción, como efectivo o tarjeta.
+Frecuencia de ventas por cliente: Si Documento_Tercero es único para cada cliente, se analizará la recurrencia de sus compras.
+Sincronización y Corte:
+
+* Transacciones no sincronizadas: Evaluación de las transacciones marcadas como no sincronizadas para identificar problemas operativos.
+Análisis por cortes de ventas: Agrupación de datos por Id_Corte para analizar el volumen de ventas por cada cierre de turno.
+Este análisis exploratorio proporcionará una base sólida para la identificación de patrones, relaciones significativas, y cualquier comportamiento inusual en los datos.
+
+Modelos predictivos y técnicas de machine learning:
+
+
+En esta fase, se implementarán modelos y técnicas de aprendizaje automático para extraer patrones y realizar predicciones:
+
+Se utilizará regresión lineal y logística para realizar predicciones sobre el consumo de energía, ajustando el modelo a las características de los datos.
+Asimismo, se empleará la técnica de clustering K-means para segmentar áreas basadas en patrones de consumo energético, permitiendo una mejor comprensión de los grupos de usuarios o sectores con características similares.
+
+
+Visualización:
+
+
+Finalmente, se crearán visualizaciones interactivas para facilitar la interpretación de los resultados obtenidos:
+
+Se desarrollarán dashboards interactivos en Power BI, que mostrarán tanto los patrones identificados como las predicciones realizadas sobre el consumo de energía.
+Se incluirán gráficos geográficos para representar de manera visual las áreas y sectores con diferentes patrones de consumo, brindando un análisis visualmente atractivo y fácil de entender para los usuarios.
+
+
+Análisis de resultados
+
+
+
+Cronograma General:
+Fase 1 (1 mes): Evaluación inicial y limpieza de datos.
+Fase 2 (2 meses): Desarrollo de scripts de automatización (ETL) para la consolidación de datos.
+Fase 3 (1 mes): Implementación de modelos predictivos y generación de informes automáticos.
+Fase 4 (1 mes): Pruebas, ajustes y capacitación del personal.
+
+ Recursos Involucrados:
+Equipo de Desarrollo:
+Científico de datos (2).
+Desarrollador Python (2).
+Analista de negocios (1).
+
+Herramientas y Tecnologías Clave:
+Python: Lenguaje base para la automatización y análisis de datos.
+pandas, NumPy: Para la manipulación de datos.
+SQLAlchemy: Para la conexión con bases de datos.
+scikit-learn, TensorFlow: Para modelos de machine learning.
+Matplotlib, Seaborn, Plotly: Para la visualización de datos.
+Power BI: Para la creación de dashboards interactivos.
+
+
+Conclusiones Esperadas del Proyecto:
+Automatización Eficiente de Procesos:
+
+Se logrará una automatización completa en los procesos de consolidación, análisis y reporte de datos, eliminando la necesidad de manipulación manual de hojas de cálculo en Excel.
+El uso de Python reducirá significativamente los tiempos de procesamiento de datos, permitiendo a la empresa reaccionar más rápidamente a cambios en su entorno operativo.
+Mejora en la Calidad y Consistencia de los Datos:
+
+Al centralizar los datos en una base de datos única y automatizar el proceso de validación de los mismos, se reducirá la duplicidad, errores humanos y falta de consistencia en los reportes.
+La información será más fiable y precisa, lo que mejorará la toma de decisiones estratégicas basadas en datos.
+Toma de Decisiones Basada en Datos en Tiempo Real:
+
+El sistema automatizado proporcionará acceso a datos en tiempo real, permitiendo que los directivos y responsables de áreas clave puedan tomar decisiones más ágiles y fundamentadas.
+Los dashboards interactivos facilitarán la visualización clara de KPIs y métricas clave, ayudando a identificar problemas o tendencias de forma oportuna.
+Reducción de Costos Operativos y Mejora en la Productividad:
+
+Al reducir el tiempo invertido en tareas manuales como la actualización y consolidación de datos, el equipo de trabajo podrá enfocarse en tareas de mayor valor agregado, mejorando la productividad general.
+Se espera una reducción de costos operativos asociados a errores en la consolidación de datos o retrasos en la generación de informes.
+Capacitación y Empoderamiento del Personal:
+
+Aunque se requerirá una fase inicial de capacitación, el personal clave tendrá las herramientas necesarias para interactuar con los nuevos sistemas automatizados, lo que generará mayor empoderamiento y una mayor comprensión del valor de los datos dentro de la empresa.
+Escalabilidad y Preparación para el Crecimiento:
+
+La solución implementada será escalable, permitiendo que se amplíe a otras áreas de la empresa más allá de ventas e inventarios en futuras fases.
+La empresa estará mejor preparada para manejar grandes volúmenes de datos a medida que crezca, sin comprometer la eficiencia o calidad de la información.
+Capacidad para Desarrollar Modelos Predictivos:
+
+El proyecto incluirá la creación de modelos predictivos que permitan anticipar tendencias futuras, como previsión de ventas o demanda de inventarios, lo que aportará un enfoque proactivo en la planificación y optimización de recursos.
+Mejoras en la Colaboración Interdepartamental:
+
+Al centralizar los datos en una base única y eliminar las versiones dispersas en Excel, los diferentes departamentos de la empresa podrán trabajar con una fuente única de verdad, mejorando la colaboración y evitando la duplicación de esfuerzos.
+Reducción de Riesgos:
+
+La implementación de controles automáticos y la eliminación de procesos manuales reducirán el riesgo de errores humanos y de pérdida de información crítica, lo que disminuirá la posibilidad de decisiones erróneas basadas en datos incorrectos.
+Mejora en la Competitividad de la Empresa:
+
+El uso de ciencia de datos permitirá a la empresa obtener ventajas competitivas al mejorar su capacidad de análisis, anticipar tendencias del mercado y optimizar sus procesos internos, lo que la hará más ágil y eficiente en comparación con sus competidores.
+
+
+
+
+
