@@ -47,7 +47,7 @@ Se implementarán herramientas automatizados para la extracción, transformació
 Python permitirá la validación automática de los datos, verificando su integridad y consistencia antes de almacenarlos en una base de datos central.
 Consolidación Dinámica de los Datos:
 
-Los datos serán almacenados en una base de datos centralizada (como PostgreSQL, MySQL o una base de datos en la nube) en lugar de estar distribuidos en múltiples archivos de Excel.
+Los datos serán almacenados en una base de datos centralizada (como Sqlite, PostgreSQL, MySQL o una base de datos en la nube) en lugar de estar distribuidos en múltiples archivos de Excel.
 Python será utilizado para automatizar la consolidación de datos desde distintas áreas o departamentos, asegurando que se unifiquen en un formato estándar que permita su análisis fácil y rápido.
 El uso de tablas de resumen y la creación de vistas en tiempo real permitirá que los datos estén siempre actualizados, sin necesidad de intervención manual.
 Análisis de Datos Automatizado:
@@ -276,16 +276,17 @@ Desarrollador Python (1).
 Analista de negocios (1).
 
 ## Herramientas y Tecnologías Clave:
-* Python: Lenguaje base para la automatización y análisis de datos.
-* Python-dotenv: se utiliza para cargar variables de entorno desde un archivo .env a las variables de entorno de Python.
-* logging: para registrar eventos y errores en un archivo de texto.
-* os: interactuar con el sistema operativo.
-* pandas, NumPy: Para la manipulación de datos.
-* pyodbc, sqlite3: Para la conexión con bases de datos.
-* scikit-learn: Para modelos de machine learning.
-* Plotly: Para la visualización de datos.
-* Dash: Para la creación de dashboards interactivos.
-* Mapbox: Location intelligence for business
+* **Python**: Lenguaje base para la automatización y análisis de datos.
+* **Python-dotenv**: se utiliza para cargar variables de entorno desde un archivo .env a las variables de entorno de Python.
+* **logging**: para registrar eventos y errores en un archivo de texto.
+* **os**: interactuar con el sistema operativo.
+* **pandas, NumPy**: Para la manipulación de datos.
+* **pyodbc**: Para la conexión con bases de datos.
+* **sqlite3**: Base de datos ligera basada en disco
+* **scikit-learn**: Para modelos de machine learning.
+* **Plotly**: Para la visualización de datos.
+* **Dash**: Para la creación de dashboards interactivos.
+* **Mapbox**: Location intelligence for business
 
 ---
 # Conclusiones Esperadas del Proyecto:
@@ -328,10 +329,10 @@ El uso de ciencia de datos permitirá a la empresa obtener ventajas competitivas
 
 ---
 ## Referencias
-* Python Tutorial. Guido van Rossum and the Python development team September 02, 2018
-* Machine Learning y Scikit-Learn - Sebastian Raschka - Yuxi Liu - Ed Marcombo 2023
-* Machine Learning y Deep Learning - Jesús Bobadilla - Ed Ra-Ma - 2021
-* Estadistica práctica para ciencia de datos con R y Python - Peter Bruce, Andrew Bruce y Peter Gedeck - Marcombo 2022
+* **Python Tutorial**. Guido van Rossum and the Python development team September 02, 2018
+* **Machine Learning y Scikit-Learn** - Sebastian Raschka - Yuxi Liu - Ed Marcombo 2023
+* **Machine Learning y Deep Learning** - Jesús Bobadilla - Ed Ra-Ma - 2021
+* **Estadistica práctica para ciencia de datos con R y Python** - Peter Bruce, Andrew Bruce y Peter Gedeck - Marcombo 2022
 * https://plotly.com/
 * https://dash.plotly.com/
 * https://www.mapbox.com/
