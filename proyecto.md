@@ -118,7 +118,7 @@ EDS_5=ERIS,5.518472615,-73.37801856
 EDS_6=PERSEFONE,7.155833544,-73.11156997 
 ```
 
-[Heds-Pretiction.png](https://postimg.cc/CR0pV3nT)
+![Heds-Pretiction.png](https://postimg.cc/CR0pV3nT)
 
 ## Marco Temporal
 El proyecto se centrará en el análisis de datos históricos de ventas, desde febrero 2024  hasta Octubre 14 2024
