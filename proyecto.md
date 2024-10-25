@@ -337,10 +337,10 @@ El uso de ciencia de datos permitirá a la empresa obtener ventajas competitivas
 * https://dash.plotly.com/
 * https://www.mapbox.com/
 
-## Integrantes
-* Angelica Vasquez - Ing Electronica
-* Andres Castro - Analista de Datos
-* Cristian Ramirez - Analista de Datos
-* Cristian Camilo Chavez - 5 Semestre / Ing Software - Analista de Datos
+## 🎉 Equipo Estrella - Data Science 🎉
+* Angelica Vasquez - Ing Electronica - 🌟 Data Wizard – Siempre despejando el camino y poniendo magia en cada modelo.
+* Andres Castro - Analista de Datos - 📊 Maestro/a en encontrar patrones, con ojos de halcón para detectar insights entre líneas de datos.
+* Cristian Ramirez - Analista de Datos - 📈 Cuenta historias en gráficos, ¡porque un buen gráfico vale más que mil palabras!
+* Cristian Camilo Chavez - 5 Semestre / Ing Software - Analista de Datos - 🚀 DevOps de Datos – Impulsa nuestros datos hacia las estrellas, asegurándose de que todo esté en su lugar y seguro.
 
 
