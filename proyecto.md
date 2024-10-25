@@ -115,8 +115,7 @@ EDS_5=ERIS,5.518472615,-73.37801856
 EDS_6=PERSEFONE,7.155833544,-73.11156997 
 ```
 
-![Data](https://static.platzi.com/media/learningpath/banners/1c4f4add-87b9-44cc-ba30-4a8a134bf76e.jpg)
-
+![Data](https://drive.google.com/file/d/1N_uX7Lq2AgNYXY5b41NBS7rr3qnZdn-2/view?usp=drive_link) 
 ## Marco Temporal
 El proyecto se centrará en el análisis de datos históricos de ventas, desde marzo 2023  hasta la fecha actual.
 
