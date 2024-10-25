@@ -115,15 +115,15 @@ EDS_5=ERIS,5.518472615,-73.37801856
 EDS_6=PERSEFONE,7.155833544,-73.11156997 
 ```
 
-![Data]([https://drive.google.com/file/d/1N_uX7Lq2AgNYXY5b41NBS7rr3qnZdn-2/view?usp=drive_link](https://drive.google.com/drive/folders/1SHnTkAdnb4mB8T0pVoB1_oAYsx5zqhWB)) 
+![Data](https://static.platzi.com/media/learningpath/banners/1c4f4add-87b9-44cc-ba30-4a8a134bf76e.jpg)
+
 ## Marco Temporal
-El proyecto se centrará en el análisis de datos históricos de ventas, desde marzo 2023  hasta la fecha actual.
+El proyecto se centrará en el análisis de datos históricos de ventas, desde febrero 2024  hasta Octubre 14 2024
 
 ## Limitaciones del Proyecto:
 - La base de datos actual no incluye información de transacciones de pagos electrónicos.
 - La información se limita a 6  estaciones de servicio de combustible liquido.
 - La base de datos no incluye información de los vehículos que se llenan de combustible.
-
 ---
 
 ## Metodología
@@ -148,47 +148,30 @@ Distribuciones de variables numéricas mediante histogramas o gráficos de densi
 
 Duración del llenado: Se calculará la diferencia entre Fecha_Inicial y Fecha_Final para obtener el tiempo que tarda en llenarse un vehículo, lo cual es clave para el análisis operativo.
 Promedio del tiempo de llenado por vehículo para identificar patrones de congestión.
-Distribución del tiempo de llenado: Se crearán histogramas para detectar llenados fuera de lo usual.
-
 
 ### Análisis Temporal:
 
 **Tendencias de ventas**: Análisis de ventas diarias, semanales y mensuales para observar cambios a lo largo del tiempo.
 
 **Horas pico**: Identificación de las horas del día con mayor volumen de ventas basadas en Fecha_Inicial.
-Análisis por Estación y Posición:
-
-**Rendimiento por estación**: Comparación del volumen de ventas y valor total entre distintas estaciones (IdEstacion) o posiciones de manguera.
 
 **Análisis por producto**: Evaluación de qué productos se venden más en cada estación y momento.
 
-**Análisis de Transacciones**:
-
-* Tipo de Transacción: Análisis del volumen de ventas por tipo de transacción, como efectivo o tarjeta.
-Frecuencia de ventas por cliente: Si Documento_Tercero es único para cada cliente, se analizará la recurrencia de sus compras.
-Sincronización y Corte:
-
-* Transacciones no sincronizadas: Evaluación de las transacciones marcadas como no sincronizadas para identificar problemas operativos.
-Análisis por cortes de ventas: Agrupación de datos por Id_Corte para analizar el volumen de ventas por cada cierre de turno.
 Este análisis exploratorio proporcionará una base sólida para la identificación de patrones, relaciones significativas, y cualquier comportamiento inusual en los datos.
 
 ### Modelos predictivos y técnicas de machine learning:
 
-
 En esta fase, se implementarán modelos y técnicas de aprendizaje automático para extraer patrones y realizar predicciones:
 
-Se utilizará regresión lineal y logística para realizar predicciones sobre el consumo de energía, ajustando el modelo a las características de los datos.
-Asimismo, se empleará la técnica de clustering K-means para segmentar áreas basadas en patrones de consumo energético, permitiendo una mejor comprensión de los grupos de usuarios o sectores con características similares.
-
+Se utilizará regresión lineal simple para realizar predicciones sobre el precio publico [PPU] y [CANTIDAD] de producto suministrado, ajustando el modelo a las características de los datos.
 
 ### Visualización:
 
 
 Finalmente, se crearán visualizaciones interactivas para facilitar la interpretación de los resultados obtenidos:
 
-Se desarrollarán dashboards interactivos en Power BI, que mostrarán tanto los patrones identificados como las predicciones realizadas sobre el consumo de energía.
-Se incluirán gráficos geográficos para representar de manera visual las áreas y sectores con diferentes patrones de consumo, brindando un análisis visualmente atractivo y fácil de entender para los usuarios.
-
+Se desarrollarán dashboards interactivos en Python, que mostrarán tanto los patrones identificados como las predicciones realizadas sobre los datos de ventas.
+Se incluirán gráficos geográficos para representar de manera visual ubicacion de la red de estaciones de servicio.
 ---
 
 ## Análisis de resultados
@@ -233,12 +216,12 @@ El análisis de resultados del proyecto de automatización de datos con Python y
   Aumento en la precisión de las decisiones estratégicas, con previsiones más ajustadas y basadas en datos históricos y patrones.
 ### 4. Rendimiento de los Modelos Predictivos
 * #### Evaluación de los modelos predictivos:
-  * Se analizarán los resultados de los modelos de machine learning, como la precisión y la tasa de error de las predicciones en ventas, comportamiento del cliente o inventarios.
+  * Se analizarán los resultados de los modelos de machine learning, como la precisión y la tasa de error de las predicciones en ventas.
   * #### **Resultado esperado**:
   Los modelos predictivos alcanzan niveles altos de precisión (>80%) y son útiles para apoyar la planificación y decisiones futuras.
 * #### Valor generado por los modelos predictivos:
 
-  * Análisis del impacto de los modelos predictivos en áreas clave, como la optimización de inventarios o el aumento de la eficiencia operativa. ¿Ha habido una mejora tangible en términos de costos o gestión de recursos?
+  * Análisis del impacto de los modelos predictivos en áreas clave, como la optimización de inventarios o el aumento de la eficiencia operativa.
   * #### **Resultado esperado**:
   Uso efectivo de los modelos para prever la demanda y optimizar recursos, generando ahorro o incremento en las ventas.
 
@@ -271,35 +254,33 @@ Resultado esperado: Los usuarios perciben mejoras significativas en la claridad 
   * Evaluar el impacto general en la eficiencia de la empresa, en términos de tiempo y recursos que se han liberado para actividades de mayor valor agregado, como análisis estratégico o mejoras operacionales.
   * #### **Resultado esperado**:
   La empresa opera con mayor agilidad y puede responder más rápido a cambios en el entorno gracias al sistema de automatización implementado.
-* #### Retorno de la inversión (ROI):
-
-  * Se calculará el ROI del proyecto para determinar si el ahorro en costos, mejora en la eficiencia y aumento en la productividad han justificado la inversión en la automatización.
-  * #### **Resultado esperado**:
-  Un ROI positivo que refleje los beneficios financieros del proyecto a mediano o largo plazo.
 
 ---
 
 ## Cronograma General:
-Fase 1 (1 mes): Evaluación inicial y limpieza de datos.
-Fase 2 (2 meses): Desarrollo de scripts de automatización (ETL) para la consolidación de datos.
-Fase 3 (1 mes): Implementación de modelos predictivos y generación de informes automáticos.
-Fase 4 (1 mes): Pruebas, ajustes y capacitación del personal.
+Fase 1 (2 dias): Evaluación inicial y limpieza de datos.
+Fase 2 (3 dias): Desarrollo de scripts de automatización (ETL) para la consolidación de datos.
+Fase 3 (5 dias): Implementación de modelos predictivos y generación de informes automáticos.
+Fase 4 (5 dias): Pruebas, ajustes y capacitación usuarios.
 
 ---
 
 ## Recursos Involucrados:
 Equipo de Desarrollo:
 Científico de datos (2).
-Desarrollador Python (2).
+Desarrollador Python (1).
 Analista de negocios (1).
 
 ## Herramientas y Tecnologías Clave:
 Python: Lenguaje base para la automatización y análisis de datos.
+Python-dotenv: se utiliza para cargar variables de entorno desde un archivo .env a las variables de entorno de Python.
+logging: para registrar eventos y errores en un archivo de texto.
+os: 
 pandas, NumPy: Para la manipulación de datos.
-SQLAlchemy: Para la conexión con bases de datos.
-scikit-learn, TensorFlow: Para modelos de machine learning.
-Matplotlib, Seaborn, Plotly: Para la visualización de datos.
-Power BI: Para la creación de dashboards interactivos.
+pyodbc, sqlite3: Para la conexión con bases de datos.
+scikit-learn: Para modelos de machine learning.
+Plotly: Para la visualización de datos.
+Dash: Para la creación de dashboards interactivos.
 
 ---
 # Conclusiones Esperadas del Proyecto:
