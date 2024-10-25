@@ -98,7 +98,10 @@ El proyecto abarcará los departamentos de ventas, operaciones y mantenimiento, 
 La tabla ventas en **_MSSQL_** se compone de :
 
 ```sql
-[Pk_IdVenta],[Id_Venta_Estacion],[IdEstacion],[Fecha_Inicial],[Fecha_Final],[Posicion],[Manguera],[Precio_Unitario],[Cantidad]   ,[ValorTotal],[Producto],[TipoTransaccion],[Documento_Vendedor],[Trama],[Documento_Tercero],[Sincronizado],[Id_Corte]
+ SELECT [Pk_IdVenta], [IdVentaEstacion], [IdEstacion], [FechaIni], 
+            [FechaFin], [Posicion], [Manguera], [PPU], [Cantidad], [ValorTotal], 
+            [Producto], [TipoTransaccion], [DocumentoVendedor] 
+            FROM [EDS_MASTER].[dbo].[vista_ventas];
 ```
 - Tablas maestras de productos y estaciones de servicio
 ```Python
@@ -275,7 +278,7 @@ Analista de negocios (1).
 Python: Lenguaje base para la automatización y análisis de datos.
 Python-dotenv: se utiliza para cargar variables de entorno desde un archivo .env a las variables de entorno de Python.
 logging: para registrar eventos y errores en un archivo de texto.
-os: 
+os: interactuar con el sistema operativo.
 pandas, NumPy: Para la manipulación de datos.
 pyodbc, sqlite3: Para la conexión con bases de datos.
 scikit-learn: Para modelos de machine learning.
@@ -323,6 +326,12 @@ El uso de ciencia de datos permitirá a la empresa obtener ventajas competitivas
 
 ---
 ## Referencias
+* Python Tutorial. Guido van Rossum and the Python development team September 02, 2018
+* Machine Learning y Scikit-Learn - Sebastian Raschka - Yuxi Liu - Ed Marcombo 2023
+* Machine Learning y Deep Learning - Jesús Bobadilla - Ed Ra-Ma - 2021
+* Estadistica práctica para ciencia de datos con R y Python - Peter Bruce, Andrew Bruce y Peter Gedeck - Marcombo 2022
+* 
+
 
 
 
