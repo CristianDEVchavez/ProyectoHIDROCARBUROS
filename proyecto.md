@@ -262,10 +262,10 @@ Resultado esperado: Los usuarios perciben mejoras significativas en la claridad 
 ---
 
 ## Cronograma General:
-Fase 1 (2 dias): Evaluación inicial y limpieza de datos.
-Fase 2 (3 dias): Desarrollo de scripts de automatización (ETL) para la consolidación de datos.
-Fase 3 (5 dias): Implementación de modelos predictivos y generación de informes automáticos.
-Fase 4 (5 dias): Pruebas, ajustes y capacitación usuarios.
+* Fase 1 (2 dias): Evaluación inicial y limpieza de datos.
+* Fase 2 (3 dias): Desarrollo de scripts de automatización (ETL) para la consolidación de datos.
+* Fase 3 (5 dias): Implementación de modelos predictivos y generación de informes automáticos.
+* Fase 4 (5 dias): Pruebas, ajustes y capacitación usuarios.
 
 ---
 
@@ -276,15 +276,16 @@ Desarrollador Python (1).
 Analista de negocios (1).
 
 ## Herramientas y Tecnologías Clave:
-Python: Lenguaje base para la automatización y análisis de datos.
-Python-dotenv: se utiliza para cargar variables de entorno desde un archivo .env a las variables de entorno de Python.
-logging: para registrar eventos y errores en un archivo de texto.
-os: interactuar con el sistema operativo.
-pandas, NumPy: Para la manipulación de datos.
-pyodbc, sqlite3: Para la conexión con bases de datos.
-scikit-learn: Para modelos de machine learning.
-Plotly: Para la visualización de datos.
-Dash: Para la creación de dashboards interactivos.
+* Python: Lenguaje base para la automatización y análisis de datos.
+* Python-dotenv: se utiliza para cargar variables de entorno desde un archivo .env a las variables de entorno de Python.
+* logging: para registrar eventos y errores en un archivo de texto.
+* os: interactuar con el sistema operativo.
+* pandas, NumPy: Para la manipulación de datos.
+* pyodbc, sqlite3: Para la conexión con bases de datos.
+* scikit-learn: Para modelos de machine learning.
+* Plotly: Para la visualización de datos.
+* Dash: Para la creación de dashboards interactivos.
+* Mapbox: Location intelligence for business
 
 ---
 # Conclusiones Esperadas del Proyecto:
@@ -333,6 +334,7 @@ El uso de ciencia de datos permitirá a la empresa obtener ventajas competitivas
 * Estadistica práctica para ciencia de datos con R y Python - Peter Bruce, Andrew Bruce y Peter Gedeck - Marcombo 2022
 * https://plotly.com/
 * https://dash.plotly.com/
+* https://www.mapbox.com/
 
 
 
