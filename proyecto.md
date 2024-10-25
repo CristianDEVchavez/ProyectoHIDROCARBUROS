@@ -75,15 +75,14 @@ Python puede integrarse con plataformas de comunicación (como correo electróni
 
 ## Objetivo general 
 
-Realizar un análisis a las ventas en las estaciones de servicio de combustible del sistema de líquidos _(db)_ **MASTER** con el fin de identificar patrones y obtener información clave. Permitiendo formular recomendaciones estratégicas y de mejora para el cliente.**
+Realizar un análisis a las ventas en las estaciones de servicio de combustible del sistema de líquidos _(db)_ **MASTER** con el fin de identificar patrones y obtener información clave. Permitiendo formular recomendaciones estratégicas y de mejora para la organización.
 
 ## Objetivos Específicos
 
-* Identificar promedios y distribución de tiempos de llenado de vehículos que permita contribuir a los análisis operativos.
+* Identificar promedios y distribución de tiempos de llenado de vehículos que permita contribuir a los análisis operativos (Aplicar estadística descriptiva).
 * Evaluar las tendencias de ventas en distintos periodos de tiempo para identificar patrones estacionales y períodos de mayor demanda.
-* Realizar un análisis de rendimiento en los puntos de venta para comprender patrones de ventas, comportamiento de transacciones y frecuencia de clientes con el fin de optimizar la distribución de recursos y mejorar la experiencia del cliente.
-* Detectar patrones anómalos de ventas para generar las alertas correspondientes.
-* **Evaluar** desempeño de ventas para obtener información detallada del volumen de ventas asociado a cada corte.
+* Realizar un análisis de rendimiento en los puntos de venta para comprender patrones de ventas, comportamiento de transacciones con el fin de optimizar la distribución de recursos y mejorar la experiencia del cliente.
+* **Evaluar** desempeño de ventas para obtener información detallada del volumen de ventas asociado a un periodo de tiempo.
 
 ---
 
