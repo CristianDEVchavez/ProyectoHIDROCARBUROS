@@ -2,8 +2,11 @@
 ---
 ## Introducción 
 Teniendo en cuenta que en la actualidad estamos en un entorno empresarial cada vez más competitivo, la capacidad de tomar decisiones informadas es crucial para el éxito de cualquier organización. 
+
 Las estaciones de servicio representan un factor fundamental en la cadena de suministro de combustibles, y su rendimiento puede verse afectado por múltiples factores, como la ubicación, la competencia, tendencias del mercado y cambios en la demanda.
 Por lo anterior, se hace necesario un análisis exhaustivo de los datos de ventas a través de diferentes variables como lo son: el tiempo de llenado, tiempo promedio de espera por vehículo y horas de mayor tráfico entre otros,  ya que de esta manera se podría no solo evaluar el desempeño histórico, sino también predecir tendencias futuras, permitiendo a la organización tomar decisiones basadas en hechos.
+
+Dicho análisis incluirá la recopilación y revisión de datos históricos de ventas, lo que permitirá identificar patrones y comportamientos de compra. Al observar las variaciones en las ventas a lo largo del tiempo, se puede determinar qué factores como los precios y condiciones económicas influyen en el comportamiento de ventas en las estaciones de servicio. Lo anterior no solo permitirá anticipar cambios en la demanda de combustible, sino que también ayudará a la empresa a optimizar la asignación de recursos y diseñar estrategias de marketing más efectivas basándose en datos concretos y no en suposiciones.
 
 ## ASIS  
 
