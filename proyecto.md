@@ -337,6 +337,10 @@ El uso de ciencia de datos permitirá a la empresa obtener ventajas competitivas
 * https://dash.plotly.com/
 * https://www.mapbox.com/
 
-
+## Integrantes
+* Angelica Vasquez - Ing Electronica
+* Andres Castro - Analista de Datos
+* Cristian Ramirez - Analista de Datos
+* Cristian Camilo Chavez - 5 Semestre / Ing Software - Analista de Datos
 
 
