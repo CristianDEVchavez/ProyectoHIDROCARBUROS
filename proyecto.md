@@ -94,17 +94,25 @@ Realizar un análisis a las ventas en las estaciones de servicio de combustible 
 El proyecto abarcará los departamentos de ventas, operaciones y mantenimiento, ya que son las principales áreas que actualmente gestionan y consolidan datos a través de múltiples hojas de Excel.
 
 ## Fuentes de Datos:
-- Base de datos en MSQL de nombre MOL (Master On Line)
+- Base de datos en MSQL de nombre MASTER (Master On Line)
 La tabla ventas en **_MSSQL_** se compone de :
 
 ```sql
 [Pk_IdVenta],[Id_Venta_Estacion],[IdEstacion],[Fecha_Inicial],[Fecha_Final],[Posicion],[Manguera],[Precio_Unitario],[Cantidad]   ,[ValorTotal],[Producto],[TipoTransaccion],[Documento_Vendedor],[Trama],[Documento_Tercero],[Sincronizado],[Id_Corte]
 ```
 - Tablas maestras de productos y estaciones de servicio
-```sql
-Archivo productos.txt [Pk_IdProducto	Nombre	Descripcion	FK_IdUnidadMedida	FK_IdSubcategoria	FK_IdMoneda	Existe	CodigoProducto	CodigoSiesa]
-Archivo eds.xlsx [Pk_idEstacion],[Nombre],[Ciudad],[Latitud],[Longitud]
-
+```Python
+Entrega de variables maestras de productos y estaciones de servicio (.ENV):
+PROD_ACPM=102,ACPM
+PROD_CORRIENTE=101,CORRIENTE
+PROD_EXTRA=103,EXTRA
+PROD_MAXPRO=104,MAXPRO
+EDS_1=ZEUS,4.772104,-74.0416697
+EDS_2=HERA,6.257590259,-75.61103107
+EDS_3=POSEIDON,3.399043723,-76.57649259
+EDS_4=JUPITER,4.451921427,-75.252591
+EDS_5=ERIS,5.518472615,-73.37801856
+EDS_6=PERSEFONE,7.155833544,-73.11156997 
 ```
 
 ![Data](https://static.platzi.com/media/learningpath/banners/1c4f4add-87b9-44cc-ba30-4a8a134bf76e.jpg)
