@@ -75,7 +75,7 @@ Python puede integrarse con plataformas de comunicación (como correo electróni
 
 ## Objetivo general 
 
-Realizar un análisis a las ventas en las estaciones de servicio de combustible del sistema de líquidos MOL con el fin de identificar patrones y obtener información clave. Permitiendo formular recomendaciones estratégicas y de mejora para el cliente.**
+Realizar un análisis a las ventas en las estaciones de servicio de combustible del sistema de líquidos _(db)_ **MASTER** con el fin de identificar patrones y obtener información clave. Permitiendo formular recomendaciones estratégicas y de mejora para el cliente.**
 
 ## Objetivos Específicos
 
