@@ -175,6 +175,7 @@ Finalmente, se crearán visualizaciones interactivas para facilitar la interpret
 
 Se desarrollarán dashboards interactivos en Python, que mostrarán tanto los patrones identificados como las predicciones realizadas sobre los datos de ventas.
 Se incluirán gráficos geográficos para representar de manera visual ubicacion de la red de estaciones de servicio.
+
 ---
 
 ## Análisis de resultados
@@ -330,7 +331,8 @@ El uso de ciencia de datos permitirá a la empresa obtener ventajas competitivas
 * Machine Learning y Scikit-Learn - Sebastian Raschka - Yuxi Liu - Ed Marcombo 2023
 * Machine Learning y Deep Learning - Jesús Bobadilla - Ed Ra-Ma - 2021
 * Estadistica práctica para ciencia de datos con R y Python - Peter Bruce, Andrew Bruce y Peter Gedeck - Marcombo 2022
-* 
+* https://plotly.com/
+* https://dash.plotly.com/
 
 
 
