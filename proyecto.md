@@ -286,7 +286,7 @@ Analista de negocios (1).
 * **scikit-learn**: Para modelos de machine learning.
 * **Plotly**: Para la visualización de datos.
 * **Dash**: Para la creación de dashboards interactivos.
-* **Mapbox**: Location intelligence for business
+* **Mapbox**: Location intelligence for business - plataforma de código abierto de mapeo
 
 ---
 # Conclusiones Esperadas del Proyecto:
