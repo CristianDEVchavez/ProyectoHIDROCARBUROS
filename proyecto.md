@@ -101,7 +101,7 @@ La tabla ventas en **_MSSQL_** se compone de :
  SELECT [Pk_IdVenta], [IdVentaEstacion], [IdEstacion], [FechaIni], 
             [FechaFin], [Posicion], [Manguera], [PPU], [Cantidad], [ValorTotal], 
             [Producto], [TipoTransaccion], [DocumentoVendedor] 
-            FROM [EDS_MASTER].[dbo].[vista_ventas];
+            FROM [MASTER].[dbo].[vista_ventas];
 ```
 - Tablas maestras de productos y estaciones de servicio
 ```Python
