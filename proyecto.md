@@ -43,7 +43,7 @@ Falta de agilidad para adaptarse a cambios rápidos en el entorno empresarial, y
 Automatización del Ingreso y Procesamiento de Datos:
 
 Se eliminarán los procesos manuales de ingreso de datos en Excel y serán reemplazados por scripts en Python que se conecten directamente a las fuentes de datos (bases de datos SQL, API, archivos CSV, etc.).
-Se implementarán pipelines automatizados para la extracción, transformación y carga de datos (ETL), utilizando herramientas como pandas y SQLAlchemy para gestionar la conexión entre diferentes fuentes de datos y procesar la información.
+Se implementarán herramientas automatizados para la extracción, transformación y carga de datos (ETL), utilizando herramientas como pandas y pyodbc para gestionar la conexión entre diferentes fuentes de datos y procesar la información.
 Python permitirá la validación automática de los datos, verificando su integridad y consistencia antes de almacenarlos en una base de datos central.
 Consolidación Dinámica de los Datos:
 
@@ -53,7 +53,7 @@ El uso de tablas de resumen y la creación de vistas en tiempo real permitirá q
 Análisis de Datos Automatizado:
 
 Los análisis que antes se realizaban manualmente en Excel se automatizarán usando notebooks de Jupyter y bibliotecas como NumPy, pandas y scikit-learn para realizar análisis estadísticos, detectar patrones y crear modelos predictivos basados en los datos consolidados.
-Los informes manuales serán reemplazados por dashboards interactivos en herramientas como Plotly o Power BI, que estarán conectados a las bases de datos actualizadas, mostrando métricas clave en tiempo real.
+Los informes manuales serán reemplazados por dashboards interactivos en herramientas como Plotly, que estarán conectados a las bases de datos actualizadas, mostrando métricas clave en tiempo real.
 Modelos Predictivos y Machine Learning:
 
 Python permitirá el uso de técnicas de machine learning para crear modelos predictivos que ayuden a la empresa a tomar decisiones estratégicas basadas en datos. Por ejemplo:
