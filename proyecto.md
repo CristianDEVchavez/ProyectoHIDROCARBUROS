@@ -1,8 +1,9 @@
 # ANÁLISIS DE TENDENCIAS DE VENTAS DE HIDROCARBUROS AL CLIENTE FINAL EN ESTACIONES DE SERVICIO (EDS)
 ---
 ## Introducción 
-En un entorno cada vez más competitivo, tomar decisiones informadas es esencial para los clientes al elegir dónde tanquear su vehículo. Las estaciones de servicio juegan un papel crucial en esta decisión, ya que su rendimiento puede verse afectado por factores como la ubicación, la competencia y las tendencias del mercado. Por ello, es fundamental que los consumidores analicen los datos relacionados con las estaciones de servicio, considerando variables como el precio del combustible, el tiempo de llenado, y el tiempo promedio de espera por vehículo.
-Este análisis no solo les permitirá evaluar qué estaciones ofrecen las mejores condiciones, sino que también ayudará a comprender cómo factores como promociones, condiciones climáticas y la demanda general influyen en los precios. Al observar estas relaciones, los clientes podrán tomar decisiones más informadas sobre dónde abastecerse, optimizando así su experiencia y costos. Con información clara y accesible, los consumidores estarán mejor preparados para anticipar cambios en el mercado y elegir la opción que mejor se adapte a sus necesidades.
+Teniendo en cuenta que en la actualidad estamos en un entorno empresarial cada vez más competitivo, la capacidad de tomar decisiones informadas es crucial para el éxito de cualquier organización. 
+Las estaciones de servicio representan un factor fundamental en la cadena de suministro de combustibles, y su rendimiento puede verse afectado por múltiples factores, como la ubicación, la competencia, tendencias del mercado y cambios en la demanda.
+Por lo anterior, se hace necesario un análisis exhaustivo de los datos de ventas a través de diferentes variables como lo son: el tiempo de llenado, tiempo promedio de espera por vehículo y horas de mayor tráfico entre otros,  ya que de esta manera se podría no solo evaluar el desempeño histórico, sino también predecir tendencias futuras, permitiendo a la organización tomar decisiones basadas en hechos.
 
 ## ASIS  
 
