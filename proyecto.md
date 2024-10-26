@@ -338,7 +338,7 @@ El uso de ciencia de datos permitirá a la empresa obtener ventajas competitivas
 * https://www.mapbox.com/
 
 ## 🎉 Equipo Estrella - Data Science 🎉
-* Angélica Vásquez - Ing Electronica - 🌟 Data Wizard – Siempre despejando el camino y poniendo magia en cada modelo.
+* Angélica Vargas - Ing Electronica - 🌟 Data Wizard – Siempre despejando el camino y poniendo magia en cada modelo.
 * Andrés Castro - Analista de Datos - 📊 Maestro en encontrar patrones, con ojos de halcón para detectar insights entre líneas de datos.
 * Cristian Ramirez - Analista de Datos - 📈 Cuenta historias en gráficos, ¡porque un buen gráfico vale más que mil palabras!
 * Cristian Camilo Chávez - 5Sem/Ing Software - Analista de Datos - 🚀 DevOps de Datos – Impulsa nuestros datos hacia las estrellas, asegurándose de que todo esté en su lugar y seguro.
